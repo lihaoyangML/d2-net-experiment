@@ -43,4 +43,4 @@ image3 = cv2.drawMatches(image1, inlier_keypoints_left, image2, inlier_keypoints
 plt.figure(figsize=(15, 15))
 plt.imshow(image3)
 plt.axis('off')
-plt.savefig('./', bbox_inches='tight', pad_inches=0)
+plt.savefig('pair_2_result.jpg', bbox_inches='tight', pad_inches=0)
