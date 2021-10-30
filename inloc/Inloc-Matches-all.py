@@ -28,7 +28,6 @@ query_feat = feat_list[0]
 feat_list = feat_list[1:]
 
 start = time.time()
-matches = match_descriptors(feat1['descriptors'], feat2['descriptors'], cross_check=True)
 matches_list = []
 for feat in feat_list:
     matches = match_descriptors(query_feat['descriptors'], feat['descriptors'], cross_check=True)
